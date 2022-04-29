@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.anna.quiz.LevelOne"
+    android:background="#b6cef2" >
+
+
+    <Button
+        android:id="@+id/btn_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_two"
+        android:layout_alignParentStart="true"
+        android:layout_marginHorizontal="70dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/pops"
+        android:text=""
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btn_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_three"
+        android:layout_marginHorizontal="70dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/pops"
+        android:text=""
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btn_three"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_four"
+        android:layout_marginBottom="30dp"
+        android:layout_marginHorizontal="70dp"
+        android:textSize="20dp"
+        android:background="@drawable/pops"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btn_four"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="70dp"
+        android:layout_marginBottom="143dp"
+        android:background="@drawable/pops"
+        android:text=""
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tv_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="82dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="10dp"
+        android:onClick="GameLevels"
+        app:srcCompat="@drawable/btn_next" />
+
+</RelativeLayout>
